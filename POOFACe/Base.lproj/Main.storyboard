@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="POOFACe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAPER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtF-Mw-cCa">
+                                <rect key="frame" x="179.5" y="64" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2P-c0-1Sp">
+                                <rect key="frame" x="177" y="372" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="FACT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY7-st-lOe">
+                                <rect key="frame" x="177" y="372" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="FACT"/>
+                                <connections>
+                                    <action selector="COOL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7a-4N-zwq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKG-so-nHN">
+                                <rect key="frame" x="147" y="223" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="COLOR CHANGE "/>
+                                <connections>
+                                    <action selector="COLOR:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wL8-dL-yoQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wR1-PO-06N">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxZ-jE-e18">
+                                <rect key="frame" x="172" y="100" width="70" height="30"/>
+                                <state key="normal" title="PUSH ME "/>
+                                <connections>
+                                    <action selector="BUTTONPRESS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p2g-ob-kvH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIL-6N-WmC">
+                                <rect key="frame" x="185" y="561" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="GREEN"/>
+                                <connections>
+                                    <action selector="GREEN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJh-Pk-qs4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HtF-Mw-cCa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fad-2x-tvJ"/>
+                            <constraint firstItem="wR1-PO-06N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HLH-1j-Upl"/>
+                            <constraint firstItem="dxZ-jE-e18" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OIh-ou-L9L"/>
+                            <constraint firstItem="dxZ-jE-e18" firstAttribute="top" secondItem="HtF-Mw-cCa" secondAttribute="bottom" constant="15" id="dSP-F2-m3X"/>
+                            <constraint firstItem="HtF-Mw-cCa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="eMk-MC-Tbe"/>
+                            <constraint firstItem="wR1-PO-06N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rGv-xP-Gip"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="LABEL" destination="wR1-PO-06N" id="uie-QZ-Cag"/>
+                        <outlet property="NAPER" destination="HtF-Mw-cCa" id="scb-gK-EMY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>
