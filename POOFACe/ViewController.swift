@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     tapcount = tapcount + 1
         
         if tapcount >= 10 {
-            NAPER.text = "you have pushed the button ten times"
+            NAPER.t		ext = "you have pushed the button ten times"
         }
     }
     
